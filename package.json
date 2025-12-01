@@ -1,0 +1,35 @@
+{
+  "name": "resume-builder-ai-powered",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "@huggingface/hub": "^2.7.1",
+    "@huggingface/inference": "^4.13.4",
+    "@huggingface/mcp-client": "^0.2.3",
+    "axios": "^1.13.2",
+    "canvas": "^3.2.0",
+    "cloudinary": "^2.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "groq-sdk": "^0.36.0",
+    "mammoth": "^1.11.0",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.11",
+    "openai": "^6.9.1",
+    "pdf-parse": "^2.4.5",
+    "word-wrap": "^1.2.5",
+    "wrap-ansi": "^9.0.2"
+  }
+}
